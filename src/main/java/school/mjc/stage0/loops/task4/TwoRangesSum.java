@@ -17,7 +17,7 @@ public class TwoRangesSum {
                     countedSum+=i;
             }
             System.out.print("skipped sum is "); System.out.print(skippedSum);System.out.print('\n');
-            System.out.print("counted sum is "); System.out.print(countedSum);
+            System.out.print("counted sum is "); System.out.print(countedSum);System.out.print('\n');
         }
     }
 }
