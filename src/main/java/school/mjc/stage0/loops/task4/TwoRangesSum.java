@@ -9,12 +9,12 @@ public class TwoRangesSum {
         else
         {
             int skippedSum = 0, countedSum = 0;
-            for(int i = 0; i<=lastInRow; i++)
+            for(int i = 0; i<lastInRow; i++)
             {
-                if(i==numberToSkip)
-                    skippedSum+=i;
-                else
+                if(i%numberToSkip==0)
                     countedSum+=i;
+                else
+                    skippedSum+=i;
             }
             System.out.print("skipped sum is "); System.out.print(skippedSum);System.out.print('\n');
             System.out.print("counted sum is "); System.out.print(countedSum);
