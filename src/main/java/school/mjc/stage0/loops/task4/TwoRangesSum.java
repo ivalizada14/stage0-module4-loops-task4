@@ -9,7 +9,7 @@ public class TwoRangesSum {
         else
         {
             int skippedSum = 0, countedSum = 0;
-            for(int i = 0; i<lastInRow; i++)
+            for(int i = 0; i<=lastInRow; i++)
             {
                 if(i%numberToSkip==0)
                     countedSum+=i;
